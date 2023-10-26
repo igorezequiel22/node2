@@ -1,0 +1,34 @@
+.producto-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 100px;
+}
+
+.nombre, .tipo, .precio {
+    color: rgb(20, 80, 129);
+}
+
+.btn-add {
+    cursor: pointer;
+    padding: 4px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-vista {
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
